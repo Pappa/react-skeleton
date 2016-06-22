@@ -5,8 +5,10 @@
   "repository": "https://github.com/Pappa/react-skeleton",
   "main": "src/index.html",
   "scripts": {
+    "dev": "webpack --watch --inline",
+    "build": "webpack --progress --colors -p",
     "test": "karma start",
-    "start": "nw"
+    "start": "nw ."
   },
   "author": "Pappa",
   "license": "MIT",
