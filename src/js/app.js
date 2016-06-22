@@ -1,6 +1,2 @@
-import React from 'react';
-import ReactDom from 'react-dom';
-
-ReactDom.render((
-	Hello
-), document.getElementById('root'));
+import Hello from './hello.jsx';
+import World from './world.jsx';
