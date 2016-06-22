@@ -5,7 +5,7 @@ const webpack = require('webpack');
 
 module.exports = {
   devtool: 'eval',
-  entry: './index',
+  entry: './src/js/app',
   output: {
     path: path.join(__dirname, 'dist'),
     filename: 'bundle.js',
